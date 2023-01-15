@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+}
+
+----------------------------------------------------------- header-start ---------------------------------------------------------------*/ 
+
+.header-section {
+    /* background-color: rgba(255, 144, 14, 0.1); */
+    background: rgba(255, 144, 14, 0.1);
+    padding-top: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 50px;
+    /* width: 100%; */
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.nav-bar-righ-side{
+    font-size: 18px;
+    margin-top: 17px;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    padding: 20px;
+}
+
+/*-----------------------------------------------------------
+                    banner-start
+---------------------------------------------------------------*/
+
+
+
+.banner-top {
+    margin-top: 115px;
+    text-align: center;
+}
+
+.banner {
+    margin-top: 50px;
+
+}
+
+.banner img {
+    width: 65%;
+    text-align: center;
+    margin-left: 240px;
+    /* margin-bottom: 110px; */
+    /* justify-content: center;
+    align-items: center; */
+    /* margin-right: 230px; */
+
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 25px;
+    color: #727272;
+}
+
+
+/*-----------------------------------------------------------
+                    banner-end
+---------------------------------------------------------------*/
+
+/* -----------------------------------------------------------
+                    quick-list-start
+---------------------------------------------------------------*/
+
+.quick-list-container {
+    display: flex;
+    gap: 76px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.quick-list-left-container {
+    margin-top: 110px;
+}
+
+.quick-list-right-container {
+    margin-top: 110px;
+}
+
+.quick-list-right-container-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 53px;
+}
+
+.part-1 {
+    display: flex;
+    gap: 20px;
+}
+
+.part-2 {
+    display: flex;
+    gap: 20px;
+}
+
+.team1>img {
+    width: 230px;
+    height: 230px;
+}
+
+.title-part-1 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+}
+
+.title-part-2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.title-part-3 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #FF900E;
+}
+
+/*-----------------------------------------------------------
+                    quick-list-end
+---------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------
+                    features-section-start
+---------------------------------------------------------------*/
+
+
+.features-container {
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 130px;
+    margin-left: 240px;
+    margin-right: 240px;
+    gap: 20px;
+}
+
+.features-top {
+    margin-bottom: 30px;
+}
+
+.features-sub-top-item {
+    margin-bottom: 25px;
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    border-left: 3px solid #FF900E;
+}
+
+.features-sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+
+}
+
+.features-description,
+.features-sub-description {
+    margin-right: 50px;
+    color: #727272;
+}
+
+.features-right-container-photo>img {
+    width: 400px;
+    height: 590px;
+}
+
+/*-----------------------------------------------------------
+                    features-section-end
+---------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------
+                    experience-section-start
+---------------------------------------------------------------*/
+
+.experience {
+    background-color: #FF900E;
+    width: 240px;
+    height: 150px;
+    border-radius: 8px;
+    font-weight: 700;
+    /* font-size: 65px; */
+    line-height: 70px;
+    text-align: center;
+    /* align-items: center;
+    justify-content: center; */
+    color: #FFFFFF;
+    margin-left: 45%;
+    margin-top: -100px;
+    z-index: 1;
+    position: absolute;
+}
+
+.experience-year {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 55px;
+
+}
+
+.experience-small {
+    font-size: 20px;
+    /* margin-top: 15px; */
+}
+
+.experience-description {
+    color: #FFFFFF;
+}
+
+
+/*-----------------------------------------------------------
+                    experience-section-end
+---------------------------------------------------------------*/
+
+/*-----------------------------------------------------------
+                    counter and factor-section-start
+---------------------------------------------------------------*/
+
+
+.factors-container {
+    margin-top: 100px;
+    margin-left: 240px;
+}
+
+.number-container {
+    font-weight: 600;
+    font-size: 40px;
+    color: #424242;
+}
+
+.counter-description {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+.info-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.info-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 35%;
+}
+
+.counter-section {
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.counter-info {
+    width: 169px;
+    height: 136px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #FF900E;
+    padding-top: 25px;
+    border-radius: 8px;
+    padding-bottom: 25px;
+}
+
+.counter-info:hover {
+    width: 169px;
+    height: 136px;
+    border: 1px solid #560eff;
+    background-color: aquamarine;
+    border-radius: 8px;
+    border: none;
+}
+
+
+/*-----------------------------------------------------------
+                    counter and factor-section-end
+---------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------
+                    sponsor-section-start
+---------------------------------------------------------------*/
+
+.sponsors-info {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.sponsors-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 15px;
+}
+
+.sponsors-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 100px;
+}
+
+.company-name {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.company-name img {
+    width: 135px;
+    height: 35px;
+}
+
+/*-----------------------------------------------------------
+                    sponsor-section-end
+---------------------------------------------------------------*/
+
+/*-----------------------------------------------------------
+                    footer-section-start
+---------------------------------------------------------------*/
+.footer-container {
+    justify-content: center;
+    align-items: center;
+    margin-left: 230px;
+}
+
+.footer-description {
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    width: 73%;
+    height: 20px;
+    text-align: center;
+    margin-bottom: 130px;
+    padding: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
+
+/*-----------------------------------------------------------
+                    footer-section-end
+---------------------------------------------------------------*/
